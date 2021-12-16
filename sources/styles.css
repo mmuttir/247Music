@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: "Segoe UI";
+}
+.navigation-bar{
+    position:relative;
+    margin:0;
+    padding:0;
+    width: 100%;
+    list-style-type: none;
+    overflow:hidden;
+    background-color:#0D1440;
+}
+
+.navigation-bar li{
+    float: left;
+}
+.navigation-bar li:hover{
+    background-color: #1438A6;
+}
+.active
+{
+    background-color:#1455D9;
+}
+
+.navigation-bar a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding:19px 15px;
+    text-decoration: none;
+}
+
+#search-box{
+    width: 300px;
+    height: 30px;
+    display:inline-block;
+    border-radius: 15px;
+}
+#search-button{
+    width: 80px;
+    height: 36px;
+    background-color: #0E2773;
+    color: white;
+    border-radius: 18px;
+}
+#search-button:disabled{
+    opacity: 0.6;
+}
+.results-block
+{
+    border: solid 2px black;
+    padding: 3px;
+    height: 107px;
+    margin: 5px 15px;
+}
+.thumbnails
+{
+    display:block;
+    float: left;
+}
+.results-headings{
+    display: inline;
+    margin-left: 10px;
+}
+
+
+.username-box
+{
+    margin-top: 20%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.password-box
+{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+.error-display
+{
+    width: 100%;
+    height: fit-content;
+    background-color: orange;
+    text-align: center;
+    margin: 0;
+}
+
+#playlist-input-box{
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+    display:inline-block;
+    border-radius: 15px;
+
+}
+
+#playlist-button{
+    width: 110px;
+    height: 36px;
+    background-color: #0D1440;
+    color: white;
+    border-radius: 18px;
+}
+
+#playlist-button:disabled{
+    opacity: 0.6;
+}
+
+table{
+    width: fit-content;
+    border-collapse: collapse;
+}
+table, tr, td,th{
+    border: solid black 1px;
+}
+td,th{
+    padding: 5px;
+}
+
+.center-align{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+.play-header-heading
+{
+    text-align:center;
+    display:inline-block;
+    width:90%;
+    margin: 50.5px 0;
+    transform: translateY(-50%);
+}
+
+.organization
+{
+    font-weight: bolder;
+}
+
+.smbutton
+{
+    background-color: #1455D9;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.inbutton
+{
+    width: 100px;
+}
+
+.no-border
+{
+    border: none;
+}
